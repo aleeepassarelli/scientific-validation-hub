@@ -95,17 +95,6 @@ Para incorporar o arsenal completo em seu projeto de pesquisa:
 ```bash
 git submodule add [https://github.com/aleeepassarelli/scientific-validation-hub.git](https://github.com/aleeepassarelli/scientific-validation-hub.git) arsenal
 ```
-A Estratégia dos Notebooks ("Self-Driving Notebooks")
-Para os seus notebooks .ipynb no repositório (notebooks/sd_validator.ipynb, etc.), sugiro que a primeira célula não seja código, mas sim uma Célula de Texto (Instrução).
-
-Isso garante que, assim que a pessoa abrir, ela saiba o que fazer.
-
-Exemplo de Cabeçalho para o Notebook sd_validator.ipynb:
-
-# 🔬 Validador de Densidade Semântica (SD)
-
-**Autor:** Scientific Validation Hub
-**Status:** Ready for Audit
 
 ### 🛑 Instruções para Não-Programadores
 Você não precisa rodar isso manualmente. Deixe a IA fazer o trabalho pesado.
