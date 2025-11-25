@@ -1,0 +1,34 @@
+# Configuração Padrão de Validação Científica (Rigor 1.0)
+# Copie este arquivo para a raiz do seu projeto de pesquisa e rode: pre-commit install
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ['--maxkb=10000'] # Alerta para arquivos >10MB (evita comitar datasets por engano)
+
+  # Formatação de Código Python (Black)
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black
+        language_version: python3
+
+  # Organização de Imports (Isort)
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+
+  # Validação de Jupyter Notebooks (CRUCIAL para Ciência)
+  # Usa nbqa para rodar black e isort dentro das células do notebook
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.7.0
+    hooks:
+      - id: nbqa-black
+      - id: nbqa-isort
+      - id: nbqa-check-ast # Verifica erros de sintaxe no notebook
