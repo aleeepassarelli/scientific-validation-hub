@@ -17,9 +17,9 @@ Ferramentas exclusivas desenvolvidas sob o framework **Semantic Latent Engineeri
 
 | Ferramenta | Descrição | Status de Validação | Executar Agora |
 | :--- | :--- | :---: | :---: |
-| **🔍 Semantic Density (SD)** | Valida a densidade informacional e precisão vetorial de prompts e agentes. | ![Pass](https://img.shields.io/badge/Scientific_Validation-PASSING-success) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/sd_validator_ipynb.ipynb) |
-| **🧠 Behavior Contract (CCC)** | Auditoria de aderência à missão e consistência de persona (Mission Adherence). | ![Pass](https://img.shields.io/badge/Adherence_Status-PASS-success) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/behavior_validator.ipynb) |
-| **✅ Consensus Core (CC)** | Validador de intenção, estruturado em álgebra (Intension). | [![Ferramenta de Validação de Intenção: Consensus Core](https://img.shields.io/badge/Ferramenta%20Consensus%20Core-FUNCTIONAL-blue?style=for-the-badge&logo=github)](https://colab.research.google.com/drive/YOUR_COLAB_NOTEBOOK_URL_HERE) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/consensus_core.ipynb) |
+| **🔍 Semantic Density (SD)** | Valida a densidade informacional e precisão vetorial de prompts e agentes. | [![Pass](https://img.shields.io/badge/Scientific_Validation-PASSING-success)](notebooks/ACC_Validation.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/sd_validator_ipynb.ipynb) |
+| **🧠 Behavior Contract (CCC)** | Auditoria de aderência à missão e consistência de persona (Mission Adherence). | [![Pass](https://img.shields.io/badge/Adherence_Status-PASS-success)](notebooks/validation_core.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/behavior_validator.ipynb) |
+| **✅ Consensus Core (CC)** | Validador de intenção, estruturado em álgebra (Intension). | [![Consensus Core](https://img.shields.io/badge/Ferramenta%20Consensus%20Core-FUNCTIONAL-blue?style=for-the-badge&logo=github)](notebooks/consensus_core.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](notebooks/consensus_core.ipynb) |
 
 ---
 | Experimento | Conceito | Executar |
