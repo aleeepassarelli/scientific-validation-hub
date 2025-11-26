@@ -4,6 +4,7 @@
 > Um hub modular de ferramentas ("Legos") para garantir rigor, reprodutibilidade e densidade semântica em projetos de pesquisa.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/aleeepassarelli/scientific-validation-hub?style=social)](...)
 [![Scientific Validation](https://img.shields.io/badge/Validation-Rigor_1.0-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 ---
