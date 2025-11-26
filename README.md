@@ -6,6 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/aleeepassarelli/scientific-validation-hub?style=social)](...)
 [![Scientific Validation](https://img.shields.io/badge/Validation-Rigor_1.0-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Scientific Status](https://img.shields.io/badge/Scientific_Validation-PASS-2ea44f)](https://github.com/aleeepassarelli/scientific-validation-hub/tree/main/notebooks)
+[![Environment](https://img.shields.io/badge/Environment-100%25_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 
 ---
 
